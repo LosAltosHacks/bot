@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.5.0",
+  "description": "Discord bot for the Los Altos Hacks hackathon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Liu",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.2.0",
+    "@discordjs/rest": "^1.1.0",
+    "@sentry/node": "^7.47.0",
+    "axios": "^0.27.2",
+    "discord-api-types": "^0.37.10",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}
